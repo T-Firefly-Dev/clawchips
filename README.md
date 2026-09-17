@@ -1,7 +1,5 @@
 # ClawChips: Introduction & Deployment Guide
 
-**English** | [**简体中文**](locales/README.zh-CN.md)
-
 ## What is ClawChips?
 
 ClawChips is an "on-device intelligent routing plugin solution." Deployed on Rockchip edge devices, it integrates local models, cloud models, memory routing, and a visual operations dashboard. This makes the Lobster Agent more cost-effective, practical, and controllable on the edge. Compared to approaches that rely entirely on cloud models, ClawChips dynamically routes requests between local and cloud processing based on task complexity, significantly increasing the proportion of locally handled tasks. This means high-frequency, lightweight, and latency-sensitive tasks are prioritized for local execution, reducing unnecessary cloud call pressure and allowing cloud resources to be dedicated to complex reasoning and high-quality generation.
